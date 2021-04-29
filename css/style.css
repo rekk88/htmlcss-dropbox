@@ -22,6 +22,7 @@
 .float-right{
     float: right;
 }
+/*header*/
 .header-container{
     height: 100px;
     line-height: 100px;
@@ -29,23 +30,39 @@
     position:fixed;
     top:0px;
     z-index: 150;
-    background-color: yellow;
+    background-color: white;
 }
 #logo{
     vertical-align: middle;
     height: 35px;
     line-height: 100px;
+    margin-left: 20px;
 }
-
+/*nav*/
+nav{
+    font-size: 20px;
+}
 header nav li {
     display: inline;
+    margin: 0px 15px;
 }
 nav ul li .btn{
     display: inline;
 }
 a{
     display: inline;
+    text-decoration: none;
+    color: black;
+} 
+
+.lista-sx{
+    margin-left: 20px;
 }
+.lista-dx{
+    margin-left: calc(80% - 700px);
+}
+
+
 
 
 .jumbotron-box{
