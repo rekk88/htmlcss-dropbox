@@ -23,7 +23,7 @@
     float: right;
 }
 
-.btn a{
+.btn{
     background-color:#0061ff;
     color: white;
     padding: 10px 25px;
@@ -69,7 +69,6 @@ a{
     margin-left: calc(78% - 700px);
 }
 
-
 .jumbotron{
     background-color:#b4d0e7;
 }
@@ -88,11 +87,27 @@ h1{
 }
 
 .testo{
-    width: 20%;
     margin-right: 10%;
-    /* margin-left: 5%; */
+    width: 23%;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 7%;
+}
+p.testo{
+    margin-bottom: 30px;
 }
 
+
+.jumbotron-box .contenitore-btn{
+    width: 17%;
+}
+.jumbotron-box .contenitore-btn a{
+    margin-bottom: 5%;
+
+}
+.jumbotron-box .contenitore-btn span{
+    margin-top: 20px;
+}
 .img-jumbo{
     transform: translate(30px , 100px);
 }
