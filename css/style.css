@@ -3,3 +3,53 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/*commons*/
+
+
+
+
+header{
+    height: 100px;
+
+}
+
+
+
+
+
+
+
+
+/*debug*/
+
+.debug header{
+    background-color: lightblue;
+}
+.debug .jumbotron{
+    background-color: brown;
+}
+
+.jumbotron-box{
+   
+    border: 1px solid black;
+    /* min-height: 300px; */
+    min-height: 500px;
+    background-color: lightcoral;
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.debug .space{
+    height: 80px;
+    border: 1px solid black;
+}
+.debug main{
+    background-color: green;
+    min-height: 800px;
+}
+
+.debug footer{
+    background-color: black;
+    height: 120px;
+}
