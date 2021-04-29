@@ -107,6 +107,12 @@ p.testo{
 }
 .jumbotron-box .contenitore-btn span{
     margin-top: 20px;
+    margin-right: 40px;
+
+}
+.jumbotron-box .contenitore-btn i{
+    font-size: 40px;
+    margin-top: 40px;
 }
 .img-jumbo{
     transform: translate(30px , 100px);
