@@ -10,7 +10,10 @@
 
 header{
     height: 100px;
-
+    width: 100%;
+    position:fixed;
+    top:0px;
+    z-index: 150;
 }
 
 .jumbotron-box{
@@ -20,7 +23,6 @@ header{
     max-width: 1440px;
     margin: 0 auto;
 }
-
 
 
 
