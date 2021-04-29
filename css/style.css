@@ -22,10 +22,16 @@
 .float-right{
     float: right;
 }
+
+.btn a{
+    background-color:#0061ff;
+    color: white;
+    padding: 10px 15px;
+}
 /*header*/
 .header-container{
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
     width: 100%;
     position:fixed;
     top:0px;
@@ -59,7 +65,7 @@ a{
     margin-left: 20px;
 }
 .lista-dx{
-    margin-left: calc(80% - 700px);
+    margin-left: calc(78% - 700px);
 }
 
 
@@ -71,7 +77,7 @@ a{
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 100px; /*pari all'altezza di header*/
+    margin-top: 80px; /*pari all'altezza di header*/
 }
 
 
