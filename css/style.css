@@ -26,7 +26,7 @@
 .btn a{
     background-color:#0061ff;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 25px;
 }
 /*header*/
 .header-container{
@@ -70,7 +70,9 @@ a{
 }
 
 
-
+.jumbotron{
+    background-color:#b4d0e7;
+}
 
 .jumbotron-box{
     /* min-height: 300px; */
@@ -78,12 +80,18 @@ a{
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 80px; /*pari all'altezza di header*/
+    margin-top: 81px; /*pari all'altezza di header*/
 }
 
+h1{
+    font-size: 90px;
+}
 
-
-
+.testo{
+    width: 20%;
+    margin-right: 10%;
+    /* margin-left: 5%; */
+}
 
 /*debug*/
 
@@ -91,12 +99,12 @@ a{
     background-color: lightblue;
 }
 .debug .jumbotron{
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .debug .jumbotron-box{
     border: 1px solid black;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 .debug .space{
