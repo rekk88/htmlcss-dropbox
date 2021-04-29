@@ -13,7 +13,13 @@ header{
 
 }
 
-
+.jumbotron-box{
+    /* min-height: 300px; */
+    min-height: 500px;
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 
 
@@ -29,15 +35,9 @@ header{
     background-color: brown;
 }
 
-.jumbotron-box{
-   
+.debug .jumbotron-box{
     border: 1px solid black;
-    /* min-height: 300px; */
-    min-height: 500px;
     background-color: lightcoral;
-    width: 80%;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .debug .space{
@@ -52,4 +52,28 @@ header{
 .debug footer{
     background-color: black;
     height: 120px;
+}
+.debug .business{
+    /* min-height: 300px; */
+    /* background-color: chocolate; */
+    border: 3px solid black;
+
+    /* width: 70%;
+    max-width: 1170px;
+    margin: 0 auto; */
+}
+.debug .contatto,.business,.operazioni,.team500{
+    /* min-height: 300px; */
+    /* background-color: teal; */
+    border: 3px solid black;
+
+  
+}
+
+.content{
+    min-height:300px ;
+    width: 70%;
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: yellow;
 }
