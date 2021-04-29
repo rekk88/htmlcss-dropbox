@@ -93,6 +93,9 @@ h1{
     /* margin-left: 5%; */
 }
 
+.img-jumbo{
+    transform: translate(30px , 100px);
+}
 /*debug*/
 
 .debug header{
@@ -108,7 +111,7 @@ h1{
 }
 
 .debug .space{
-    height: 80px;
+    height: 100px;
     border: 1px solid black;
 }
 .debug main{
