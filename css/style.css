@@ -4,17 +4,49 @@
     box-sizing: border-box;
 }
 /*commons*/
-
-
-
-
-header{
+.content{
+    min-height:300px ;
+    width: 70%;
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.clearfix{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.header-container{
     height: 100px;
+    line-height: 100px;
     width: 100%;
     position:fixed;
     top:0px;
     z-index: 150;
+    background-color: yellow;
 }
+#logo{
+    vertical-align: middle;
+    height: 35px;
+    line-height: 100px;
+}
+
+header nav li {
+    display: inline;
+}
+nav ul li .btn{
+    display: inline;
+}
+a{
+    display: inline;
+}
+
 
 .jumbotron-box{
     /* min-height: 300px; */
@@ -22,6 +54,7 @@ header{
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
+    margin-top: 100px; /*pari all'altezza di header*/
 }
 
 
@@ -72,10 +105,3 @@ header{
   
 }
 
-.content{
-    min-height:300px ;
-    width: 70%;
-    max-width: 1170px;
-    margin: 0 auto;
-    background-color: yellow;
-}
