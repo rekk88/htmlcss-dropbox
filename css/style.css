@@ -67,6 +67,9 @@ header nav li {
 nav ul li .btn{
     display: inline;
 }
+.btn:hover{
+    background-color:#3b85ff;
+}
 
 a{
     display: inline;
@@ -74,13 +77,12 @@ a{
     color: black;
 } 
 
-/* display: inline-block; */
-
+/* effetto hover */
 header nav li a:hover:not(.btn){
     border-bottom: 2px solid black;
     /* display: inline-block; */
     padding-bottom: 28px;
-    
+
 }
 
 .lista-sx{
@@ -128,6 +130,7 @@ p.testo{
     margin-bottom: 5%;
     display: block;
     width: 60%;
+    text-align: center;
 }
 .jumbotron-box .contenitore-btn a.arrow{
     width: min-content;
