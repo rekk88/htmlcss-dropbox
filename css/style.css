@@ -189,13 +189,22 @@ p.testo{
 .row{
     /* height: 100%; non serve il box ha la sua altezza e successivamente il contenuto del box */
     width: 100%;
+    margin: 40px 0;
 }
 .box{
     background-color: orange;
-    height: 700px;
-    width: calc(100% / 3);
+    height: 500px;
+    width: calc((100% - 100px) / 3);
+    /* border: 1px solid black; */
 }
-
+.box.center{
+    margin: 0 50px;
+}
+.debug .business .titolo{
+    border: 1px solid black;
+    height: 200px;
+    background-color: orangered;
+}
 
 .debug .content{
      background-color: yellow; 
