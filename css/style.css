@@ -101,7 +101,7 @@ header nav li a:hover:not(.btn){
 /* jumbo */
 .jumbotron{
     background-color:#b4d0e7;
-    margin-bottom: 100px;
+    margin-bottom: 150px; 
 }
 
 
@@ -200,7 +200,37 @@ p.testo{
 }
 
 .business .titolo{
+    font-size: 30px; /*h2 eredita il font*/
+    margin: 0 auto;
+}
+.business .fatturazione{
+    font-size: 20px;
 
+}
+
+.business .fatturazione a{
+    /* content: " ";
+    border-radius: 50%;
+    font-size: 1px;
+    padding: 5px 5px;
+    vertical-align: middle; */
+
+
+    /* border: 5px solid blue; */
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    border: 1px solid #b8b8b8;
+    margin-right: 5px;
+    
+}
+
+.business .fatturazione a:visited{
+    border: 5px solid blue; 
+}
+.business h2 {
+    margin-bottom: 20px;
 }
 
 .operazioni .titolo{
@@ -216,21 +246,23 @@ p.testo{
     width: calc(50%);
 
 }
+
 .debug .box{
     background-color: orange;
 }
 
 .debug .business .titolo{
-    border: 1px solid black;
-    height: 200px;
-    background-color: orangered;
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    /* background-color: orangered; */
 }
+
 .debug .operazioni .titolo{
     border: 1px solid black;
     height: 200px;
     background-color: orangered;
 }
-.business-bottom{
+.debug .business-bottom{
     height: 250px;
     background-color: orangered;
     border: 1px solid black;
@@ -239,7 +271,7 @@ p.testo{
 
 
 .debug .content{
-     background-color: yellow; 
+     /* background-color: yellow; */
 }
 .debug header{
     background-color: lightblue;
@@ -258,7 +290,7 @@ p.testo{
     border: 1px solid black;
 } */
 .debug main{
-    background-color: green;
+    /* background-color: green; */
     min-height: 800px;
 }
 
@@ -269,13 +301,13 @@ p.testo{
 .debug .business{
     /* min-height: 300px; */
     /* background-color: chocolate; */
-    border: 3px solid black;
+    /* border: 3px solid black; */
 
     /* width: 70%;
     max-width: 1170px;
     margin: 0 auto; */
 }
-.debug .contatto,.business,.operazioni,.team500{
+.debug .contatto,.operazioni,.team500{
     /* min-height: 300px; */
     /* background-color: teal; */
     border: 3px solid black;
