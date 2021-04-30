@@ -180,19 +180,13 @@ p.testo{
 
 }
 
-
-
-
-
-
-/*debug*/
 .row{
     /* height: 100%; non serve il box ha la sua altezza e successivamente il contenuto del box */
     width: 100%;
     margin: 40px 0;
 }
+
 .box{
-    background-color: orange;
     height: 500px;
     width: calc((100% - 100px) / 3);
     /* border: 1px solid black; */
@@ -200,12 +194,36 @@ p.testo{
 .box.center{
     margin: 0 50px;
 }
+
+.titolo{ /*classe per il titolo*/
+
+}
+
+.business .titolo{
+
+}
+
+.operazioni .titolo{
+
+}
+
+
+/*debug*/
+
+.debug .box{
+    background-color: orange;
+}
+
 .debug .business .titolo{
     border: 1px solid black;
     height: 200px;
     background-color: orangered;
 }
-
+.debug .operazioni .titolo{
+    border: 1px solid black;
+    height: 200px;
+    background-color: orangered;
+}
 .business-bottom{
     height: 250px;
     background-color: orangered;
