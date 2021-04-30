@@ -186,10 +186,42 @@ p.testo{
     margin: 40px 0;
 }
 
+.business .titolo{
+    font-size: 30px; /*h2 eredita il font*/
+    margin: 0 auto;
+}
+.business .fatturazione{
+    font-size: 20px;
+
+}
+
 .box{
     height: 500px;
     width: calc((100% - 100px) / 3);
     /* border: 1px solid black; */
+    /* padding: 15px; */
+}
+.box-header{
+    border-bottom: 1px solid black;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+}
+.box-header svg{
+    width: 16px;
+    height: 16px;
+}
+.box-content{
+    padding: 15px;
+}
+
+.categoria{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.price{
+    font-size: 18px;
 }
 .box.center{
     margin: 0 50px;
@@ -199,14 +231,7 @@ p.testo{
 
 }
 
-.business .titolo{
-    font-size: 30px; /*h2 eredita il font*/
-    margin: 0 auto;
-}
-.business .fatturazione{
-    font-size: 20px;
 
-}
 
 .business .fatturazione a{
     /* content: " ";
@@ -229,7 +254,8 @@ p.testo{
 .business .fatturazione a:visited{
     border: 5px solid blue; 
 }
-.business h2 {
+
+.business .titolo h2 {
     margin-bottom: 20px;
 }
 
