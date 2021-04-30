@@ -206,6 +206,14 @@ p.testo{
     background-color: orangered;
 }
 
+.business-bottom{
+    height: 250px;
+    background-color: orangered;
+    border: 1px solid black;
+}
+
+
+
 .debug .content{
      background-color: yellow; 
 }
