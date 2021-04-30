@@ -5,7 +5,7 @@
 }
 /*commons*/
 .content{
-    min-height:300px ;
+    min-height:300px; /*altezza minima per tutte le sezioni del main*/
     width: 70%;
     max-width: 1170px;
     margin: 0 auto;
@@ -29,6 +29,10 @@
     padding: 10px 25px;
     border-bottom: none;
 }
+
+
+
+
 /*body*/
 body{
     /* font-family: "SharpGroteskCondensed","Open Sans",sans-serif; */
@@ -169,14 +173,32 @@ p.testo{
 
 
 
+/*main*/
+
+.box{
+    border: 1px solid black;
+
+}
+
 
 
 
 
 
 /*debug*/
+.row{
+    /* height: 100%; non serve il box ha la sua altezza e successivamente il contenuto del box */
+    width: 100%;
+}
+.box{
+    background-color: orange;
+    height: 700px;
+    width: calc(100% / 3);
+}
+
+
 .debug .content{
-    background-color: yellow;
+     background-color: yellow; 
 }
 .debug header{
     background-color: lightblue;
