@@ -54,6 +54,7 @@ body{
     line-height: 100px;
     margin-left: 20px;
 }
+
 /*nav*/
 nav{
     font-size: 20px;
@@ -72,10 +73,11 @@ a{
 } 
 
 .lista-sx{
-    margin-left: 20px;
+    margin-left: 20px; /* distanza dal logo */
 }
 .lista-dx{
-    margin-left: calc(73% - 700px);
+    /* margin-left: calc(70% - 700px);  ok questa riga è il male piu assoluto */
+    float: right;
 }
 
 
@@ -87,7 +89,7 @@ a{
 .jumbotron-box{
     /* min-height: 300px; */
     min-height: 500px;
-    width: 80%;
+    width: 90%;
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 81px; /*pari all'altezza di header*/
@@ -117,7 +119,7 @@ p.testo{
 
 }
 .jumbotron-box .contenitore-btn span{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-right: 30px;
 
 }
