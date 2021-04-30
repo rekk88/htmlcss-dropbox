@@ -209,7 +209,13 @@ p.testo{
 
 
 /*debug*/
+.debug .img-container, .text-container {
+    height: 500px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: calc(50%);
 
+}
 .debug .box{
     background-color: orange;
 }
