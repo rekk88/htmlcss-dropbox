@@ -112,10 +112,6 @@ p.testo{
     margin-bottom: 30px;
 }
 
-
-.jumbotron-box .contenitore-btn{
-    /* width: 17%; */
-}
 .jumbotron-box .contenitore-btn a{
     margin-bottom: 5%;
     display: block;
@@ -133,14 +129,23 @@ p.testo{
     font-size: 40px;
     margin-top: 60px;
 }
+
+.jumbotron-box .img-box{
+    position: relative;
+}
+.jumbotron-box .img-box .img-content{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .img-jumbo{
     /* transform: translate(30px , 100px); */
-    /* width: 45%; */
     margin-top: 30px;
-    position: absolute;
     /* max-width: 960px; da accompagnare a margin bottom su col-sx */;
     max-width: 850px;
 }
+
 .col-sx{
     width: 30%;
     /* margin-bottom: 30px; */
