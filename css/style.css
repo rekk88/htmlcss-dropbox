@@ -196,7 +196,7 @@ p.testo{
 }
 
 .box{
-    height: 500px;
+    min-height: 500px;
     width: calc((100% - 100px) / 3);
     /* border: 1px solid black; */
     /* padding: 15px; */
@@ -207,12 +207,77 @@ p.testo{
     text-align: center;
     font-size: 20px;
 }
-.box-header svg{
+.box-header .img-box-header{
     width: 16px;
     height: 16px;
 }
 .box-content{
     padding: 15px;
+}
+.box-content .img-box-content{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.box-content .features ul li div{
+    display: inline-block;
+    width: 90%;
+}
+
+
+.box-content .utente-mese{
+    margin-bottom: 20px;
+}
+
+.box-content hr{
+    width: 20%;
+    color: #d0d0d3;
+}
+
+.box-content h5{
+    font-size: 19px;
+    margin-top: 40px;
+}
+.punti-salienti{
+    list-style: none;
+    margin-top: 30px;
+}
+.punti-salienti span{
+    height: 9px;
+    width: 13px;
+    border-left: 1.5px solid #0061ff;
+    border-bottom: 1.5px solid #0061ff;
+    display: inline-block;
+    transform: rotate(-50deg);
+    vertical-align: top;
+    margin-top: 1px;
+    margin-right: 5px;
+
+}
+.punti-salienti li div{
+    display: inline-block;
+    width: 90%;
+}
+
+.punti-salienti li {
+    margin: 12px 0;
+}
+.prova{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.prova a{
+    display: inline-block;
+}
+.prova .acquista{
+    /* text-decoration: underline; */
+    color: #0061ff;
+    margin: 20px 0px;
+}
+.prova .acquista:hover{
+    text-decoration: underline;
 }
 
 .categoria{
@@ -222,6 +287,7 @@ p.testo{
 
 .price{
     font-size: 18px;
+    margin-bottom: 12px;
 }
 .box.center{
     margin: 0 50px;
@@ -231,7 +297,13 @@ p.testo{
 
 }
 
+.features ul {
+    list-style: none;
+}
 
+.features ul li {
+    padding: 10px 0px;
+}
 
 .business .fatturazione a{
     /* content: " ";
@@ -262,7 +334,6 @@ p.testo{
 .operazioni .titolo{
 
 }
-
 
 /*debug*/
 .debug .img-container, .text-container {
