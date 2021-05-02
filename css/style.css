@@ -394,7 +394,7 @@ p.testo{
 }
 .operazioni .box{
     min-height: 500px;
-    /* border:none; */
+    border:none;
 }
 .operazioni .box .img-container img{
     width: 100%;
@@ -425,12 +425,12 @@ p.testo{
     /* height: 200px; */
     /* background-color: orangered; */
 }
-
-.debug .operazioni .titolo{
+/* 
+.debug{
     border: 1px solid black;
-    /* height: 200px; */
+    /* height: 200px;
     background-color: orangered;
-}
+} */
 .debug .business-bottom{
     /* min-height: 200px; */
     /* background-color: orangered; */
@@ -476,7 +476,7 @@ p.testo{
     max-width: 1170px;
     margin: 0 auto; */
 }
-.debug,.operazioni,.team500{
+.debug,.team500{
     /* min-height: 300px; */
     /* background-color: teal; */
     border: 3px solid black;
