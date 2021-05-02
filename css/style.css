@@ -176,7 +176,7 @@ p.testo{
 /*main*/
 
 .box{
-    border: 1px solid black;
+    border: 1px solid #b8b8b8;
 
 }
 
@@ -205,7 +205,7 @@ p.testo{
     /* padding: 15px; */
 }
 .box-header{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #b8b8b8;
     line-height: 45px;
     text-align: center;
     font-size: 20px;
@@ -235,7 +235,7 @@ p.testo{
 
 .box-content hr{
     width: 20%;
-    color: #d0d0d3;
+    color: #b8b8b8;
 }
 
 .box-content h5{
@@ -295,6 +295,23 @@ p.testo{
 .box.center{
     margin: 0 50px;
 }
+.enterprise{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.enterprise-title{
+    width: 100%;
+}
+.enterprise h2{
+    font-size: 30px;
+}
+
+.enterprise h4{
+    margin: 20px 0;
+}
+.enterprise p{
+    font-size: 15px;
+}
 
 .titolo{ /*classe per il titolo*/
 
@@ -321,7 +338,7 @@ p.testo{
     min-height: 20px;
     min-width: 20px;
     border-radius: 50%;
-    border: 1px solid #b8b8b8;
+    border: 1px solid #b8b8b8; 
     margin-right: 5px;
     
 }
@@ -333,6 +350,7 @@ p.testo{
 .business .titolo h2 {
     margin-bottom: 20px;
 }
+
 
 .operazioni .titolo{
 
@@ -348,7 +366,7 @@ p.testo{
 }
 
 .debug .box{
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .debug .business .titolo{
@@ -363,9 +381,9 @@ p.testo{
     background-color: orangered;
 }
 .debug .business-bottom{
-    height: 250px;
-    background-color: orangered;
-    border: 1px solid black;
+    /* min-height: 200px; */
+    /* background-color: orangered; */
+    border: 1px solid lightgray;
 }
 
 
