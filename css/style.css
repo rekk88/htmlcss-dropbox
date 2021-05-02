@@ -407,6 +407,14 @@ p.testo{
     font-size: 19px;
     line-height: 1.3;
 }
+
+.operazioni a{
+    text-decoration: underline;
+}
+
+.operazioni a:hover{
+    text-decoration: none;
+}
 /*debug*/
 .debug .img-container, .text-container {
     /* height: 500px; */
