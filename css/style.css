@@ -352,6 +352,9 @@ p.testo{
 .business .titolo h2 {
     margin-bottom: 20px;
 }
+.contatto{
+    margin-bottom: 100px;
+}
 .contatto .img-container{
     width: calc(50%);
 }
@@ -381,12 +384,28 @@ p.testo{
     margin-bottom: 40px;
     line-height: 1.6;
 }
-/* 
-.operazioni .titolo{
 
-} */
+.operazioni .titolo h2{
+    font-size: 40px;
+}
+
+.operazioni .titolo{
+    margin-bottom: 30px;
+}
 .operazioni .box{
     min-height: 500px;
+    /* border:none; */
+}
+.operazioni .box .img-container img{
+    width: 100%;
+}
+.operazioni .box h4{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.operazioni .box p{
+    font-size: 19px;
+    line-height: 1.3;
 }
 /*debug*/
 .debug .img-container, .text-container {
@@ -409,7 +428,7 @@ p.testo{
 
 .debug .operazioni .titolo{
     border: 1px solid black;
-    height: 200px;
+    /* height: 200px; */
     background-color: orangered;
 }
 .debug .business-bottom{
