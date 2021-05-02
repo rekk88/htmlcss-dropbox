@@ -186,7 +186,7 @@ p.testo{
     margin: 40px 0;
 }
 .business{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .business .titolo{
     font-size: 30px; /*h2 eredita il font*/
@@ -371,6 +371,11 @@ p.testo{
 .contatto .text-container .btn{
     display: inline-block;
 }
+.contatto .text-container .btn-bianco{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
 .contatto .text-container p{
     margin-top: 30px;
     margin-bottom: 40px;
@@ -380,7 +385,9 @@ p.testo{
 .operazioni .titolo{
 
 } */
-
+.operazioni .box{
+    min-height: 500px;
+}
 /*debug*/
 .debug .img-container, .text-container {
     /* height: 500px; */
@@ -450,7 +457,7 @@ p.testo{
     max-width: 1170px;
     margin: 0 auto; */
 }
-.debug .contatto,.operazioni,.team500{
+.debug,.operazioni,.team500{
     /* min-height: 300px; */
     /* background-color: teal; */
     border: 3px solid black;
