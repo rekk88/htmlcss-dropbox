@@ -194,6 +194,9 @@ p.testo{
     font-size: 20px;
 
 }
+.business .box{
+    min-height: 775px;
+}
 
 .box{
     min-height: 500px;
