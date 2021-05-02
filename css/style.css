@@ -185,7 +185,9 @@ p.testo{
     width: 100%;
     margin: 40px 0;
 }
-
+.business{
+    margin-bottom: 60px;
+}
 .business .titolo{
     font-size: 30px; /*h2 eredita il font*/
     margin: 0 auto;
@@ -350,18 +352,41 @@ p.testo{
 .business .titolo h2 {
     margin-bottom: 20px;
 }
-
-
-.operazioni .titolo{
+.contatto .img-container{
+    width: calc(50%);
+}
+.contatto .img-contatto{
+    width: 100%;
+}
+.contatto .img-container, .text-container{
+    min-height: 510px;
 
 }
+.contatto .text-container {
+    width: calc(50% - 60px);
+    padding-top: 100px;
+    padding-right: 80px;
+    margin-left: 60px;
+}
+.contatto .text-container .btn{
+    display: inline-block;
+}
+.contatto .text-container p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+/* 
+.operazioni .titolo{
+
+} */
 
 /*debug*/
 .debug .img-container, .text-container {
-    height: 500px;
-    background-color: blueviolet;
-    border: 1px solid black;
-    width: calc(50%);
+    /* height: 500px; */
+    /* background-color: blueviolet; */
+    /* border: 1px solid black; */
+    /* width: calc(50%); */
 
 }
 
