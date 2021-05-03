@@ -438,14 +438,16 @@ p.testo{
 /*section quadrati*/
 .quadrati-container{
     position: relative;
-    min-height: 200px;
-    min-width: 200px;
+    /* min-height: 200px;
+    min-width: 200px; */
     background-color: yellow;
     height: 60vh;
-    width: 30vw;
+    /* width: 30vw; */
+    width: calc((100vw) / 3);
 }
 .quadrati .testo-cent{
-    width: 40vw;
+    /* width: 40vw; */
+    width: calc((100vw - 63px) / 3);
     height: 60vh;
     background-color: orange;
 
