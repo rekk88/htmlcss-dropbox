@@ -177,7 +177,8 @@ p.testo{
 
 .box{
     border: 1px solid #b8b8b8;
-
+    min-height: 500px;
+    width: calc((100% - 100px) / 3);
 }
 
 .row{
@@ -185,6 +186,8 @@ p.testo{
     width: 100%;
     margin: 40px 0;
 }
+
+/* section business */
 .business{
     margin-bottom: 100px;
 }
@@ -200,12 +203,32 @@ p.testo{
     min-height: 775px;
 }
 
-.box{
-    min-height: 500px;
-    width: calc((100% - 100px) / 3);
-    /* border: 1px solid black; */
-    /* padding: 15px; */
+.business .fatturazione a{
+    /* content: " ";
+    border-radius: 50%;
+    font-size: 1px;
+    padding: 5px 5px;
+    vertical-align: middle; */
+
+
+    /* border: 5px solid blue; */
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    border: 1px solid #b8b8b8; 
+    margin-right: 5px;
+    
 }
+
+.business .fatturazione a:visited{
+    border: 5px solid blue; 
+}
+
+.business .titolo h2 {
+    margin-bottom: 20px;
+}
+
 .box-header{
     border-bottom: 1px solid #b8b8b8;
     line-height: 45px;
@@ -244,6 +267,7 @@ p.testo{
     font-size: 19px;
     margin-top: 40px;
 }
+
 .punti-salienti{
     list-style: none;
     margin-top: 30px;
@@ -327,31 +351,7 @@ p.testo{
     padding: 10px 0px;
 }
 
-.business .fatturazione a{
-    /* content: " ";
-    border-radius: 50%;
-    font-size: 1px;
-    padding: 5px 5px;
-    vertical-align: middle; */
 
-
-    /* border: 5px solid blue; */
-    display: inline-block;
-    min-height: 20px;
-    min-width: 20px;
-    border-radius: 50%;
-    border: 1px solid #b8b8b8; 
-    margin-right: 5px;
-    
-}
-
-.business .fatturazione a:visited{
-    border: 5px solid blue; 
-}
-
-.business .titolo h2 {
-    margin-bottom: 20px;
-}
 .contatto{
     margin-bottom: 100px;
 }
@@ -430,7 +430,38 @@ p.testo{
     text-decoration: underline;
     font-size: 18px;
 }
+
+.top{
+
+}
+
+/*section quadrati*/
+.quadrati-container{
+    position: relative;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: yellow;
+    height: 60vh;
+    width: 30vw;
+}
+.quadrati .testo-cent{
+    width: 40vw;
+    height: 60vh;
+    background-color: orange;
+
+}
+
 /*debug*/
+
+.debug .quadrati .top{
+    border: 2px solid black;
+    min-height: 400px;
+    background-color: cadetblue;
+}
+.debug .quadrati .bottom{
+    min-height: 300px;
+    background-color: cornflowerblue;
+}
 .debug .img-container, .text-container {
     /* height: 500px; */
     /* background-color: blueviolet; */
@@ -466,7 +497,7 @@ p.testo{
      /* background-color: yellow; */
 }
 .debug header{
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 .debug .jumbotron{
     /* background-color: brown; */
@@ -483,7 +514,7 @@ p.testo{
 } */
 .debug main{
     /* background-color: green; */
-    min-height: 800px;
+    /* min-height: 800px; */
 }
 
 .debug footer{
