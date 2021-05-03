@@ -471,19 +471,52 @@ p.testo{
 .quadrato .bordo.colored{
     border-color: rgba(255,255,255,0.2);
 }
+
 .col-lat{
     /*height viene presa dagli elementi contenuti ma width deve averla anche 
     il container altrimenti i quadratini float non andranno mai a capo ma tutti in fila*/
     width: 30vw; 
     background-color: yellow;
 }
+
 .col-center{
     height: 30vw;
     width: calc(100% - 60vw);
+
+}
+
+.quadrato #designit{
+    background-color: #a2d39b;
+}
+.quadrato #arizona{
+    background-color: #61082b;
+}
+.quadrato #florida{
+    background-color: #0093ce;
+}
+.quadrato #topps{
+    background-color: #ff1c1c;
+}
+.quadrato #bicycle{
+    background-color: #d5001f;
+}
+.quadrato #hearst{
+    background-color: #b4d0e7;
+}
+.quadrato #lonely{
+    background-color: #0d2481;
+}
+.quadrato #clear{
+    background-color: #ffd830;
+}
+
+/*debug*/
+
+
+.debug .col-center{
     background-color: green;
 
 }
-/*debug*/
 .debug .quadrati.row{
     background-color:olive ;
     margin-top: 0;
