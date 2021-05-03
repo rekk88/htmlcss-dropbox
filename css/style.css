@@ -436,16 +436,16 @@ p.testo{
 }
 
 /*section quadrati*/
-/* 
 .quadrato{
     width: 15vw;
     height: 15vw;
     background-color: orangered;
     float: left;
-} */
+} 
 .col-lat{
-    width: 30vw;
-    height: 30vw;
+    /*height viene presa dagli elementi contenuti ma width deve averla anche 
+    il container altrimenti i quadratini float non andranno mai a capo ma tutti in fila*/
+    width: 30vw; 
     background-color: yellow;
 }
 .col-center{
@@ -458,7 +458,7 @@ p.testo{
 .debug .quadrati.row{
     background-color:olive ;
     margin-top: 0;
-    min-height: 400px;
+    /* min-height: 400px; */
 }
 .debug .img-container, .text-container {
     /* height: 500px; */
