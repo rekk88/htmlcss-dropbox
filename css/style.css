@@ -436,14 +436,37 @@ p.testo{
     float: left;
 } 
 .quadrato img{
+    /* soluzione piu addattabile */
     width: 100%;
+    height: 100%; 
+    padding: 35% 20%;
+    display: block;
+    filter: invert(1);
+
+    /* soluzione con aggiunta di uno span per allineare verticalmente l'imgs */
+    /* width: 150px;
+    height: 75px;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle; */
+
+}
+
+#florida img{
+    padding: 44% 22%;
+
+}
+.bordo span{
+    display: inline-block;
+    vertical-align: middle;
     height: 100%;
-    padding: 10%;
+
 }
 .quadrato .bordo{
     height: 100%;
     width: 100%;
     border: 10px solid transparent;
+    text-align: center;
 }
 .quadrato .bordo.colored{
     border-color: rgba(255,255,255,0.2);
