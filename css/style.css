@@ -569,7 +569,7 @@ p.testo{
     
 }
 .faq-row h3{
-    width: 90%;
+    width: 97%;
     line-height: 15px;
     height: 15px;
 }
@@ -584,6 +584,7 @@ p.testo{
     line-height: 15px;
     margin-top: 5px;
 }
+
 .faq-row li{
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -600,7 +601,7 @@ p.testo{
     display: block;
     margin-top: 10px;
     color: #637381;
-    width: 70%;
+    width: 80%;
     line-height: 1.7;
     font-size: 18px;
 }
