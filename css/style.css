@@ -559,8 +559,32 @@ p.testo{
     background-color: #ffd830;
 }
 
+.faq{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin: 30px inherit; a quanto pare non posso mettere inherit :( */
+}
+.faq h2{
+    font-size: 30px;
+    
+}
 
+.faq-row li{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    list-style: none;
+    padding: 25px 0 25px 0;
+    margin: 50px 0;
 
+}
+
+.faq-row li div{
+    display: none;
+}
+.faq-row li:hover div{
+    display: block;
+    margin-top: 10px;
+}
 
 /*debug*/
 
