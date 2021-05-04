@@ -568,7 +568,22 @@ p.testo{
     font-size: 30px;
     
 }
-
+.faq-row h3{
+    width: 90%;
+    line-height: 15px;
+    height: 15px;
+}
+.faq-row h3 span{
+    height: 15px;
+    width: 15px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-radius: 2px;
+    /* display: inline-block; */
+    transform: rotate(225deg);
+    line-height: 15px;
+    margin-top: 5px;
+}
 .faq-row li{
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -578,14 +593,20 @@ p.testo{
 
 }
 
-.faq-row li div{
+.faq-row li .effetto-hover{
     display: none;
 }
-.faq-row li:hover div{
+.faq-row li:hover .effetto-hover{
     display: block;
     margin-top: 10px;
+    color: #637381;
+    width: 70%;
+    line-height: 1.7;
+    font-size: 18px;
 }
-
+.faq-row li:hover span{
+    transform: rotate(45deg);
+}
 /*debug*/
 
 
