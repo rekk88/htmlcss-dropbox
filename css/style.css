@@ -572,6 +572,8 @@ p.testo{
     width: 97%;
     line-height: 15px;
     height: 15px;
+    font-weight: normal;
+
 }
 .faq-row h3 span{
     height: 15px;
@@ -586,14 +588,20 @@ p.testo{
 }
 
 .faq-row li{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-top: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
     list-style: none;
     padding: 25px 0 25px 0;
     margin: 50px 0;
 
 }
-
+.faq-row li .effetto-hover a{
+    color: #637381;
+    text-decoration: underline;
+}
+.faq-row li .effetto-hover a:hover{
+    text-decoration: none;
+}
 .faq-row li .effetto-hover{
     display: none;
 }
@@ -608,6 +616,7 @@ p.testo{
 .faq-row li:hover span{
     transform: rotate(45deg);
 }
+
 /*debug*/
 
 
