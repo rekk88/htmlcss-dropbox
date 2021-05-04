@@ -251,23 +251,23 @@ p.testo{
     width: 14px;
     height: 14px;
     margin-right: 5px;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 .box-content .features ul li div{
     display: inline-block;
     width: 90%;
 }
 
-
 .box-content .utente-mese{
     margin-bottom: 20px;
 }
-
 .box-content hr{
     width: 20%;
     color: #b8b8b8;
 }
-
+.box-content ul:last-child span{
+    vertical-align: top;
+}
 .box-content h5{
     font-size: 19px;
     margin-top: 40px;
