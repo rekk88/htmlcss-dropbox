@@ -99,18 +99,25 @@ header nav li a:hover:not(.btn){
     /* margin-left: calc(70% - 700px);  ok questa riga è il male piu assoluto */
     float: right;
 }
-
 .dropdown-menu{
-    display: none;
-    background-color: lightblue;
-    position: fixed;
     top: 100px;
     height: 200px;
     width: 100px;
     z-index: 100;
+    position: fixed;
+    display: none;
+
 }
 
-nav #supporto:hover .dropdown-menu{
+#supporto .dropdown-menu{ /*per differenziare i menu aggiungo  l'id del padre di .dropdown-menu  */
+    background-color: lightblue;
+    
+}
+#dropbox .dropdown-menu{
+    background-color: lightgreen;
+}
+
+nav #supporto:hover .dropdown-menu,nav #dropbox:hover .dropdown-menu {
     display: block;
 }
 
