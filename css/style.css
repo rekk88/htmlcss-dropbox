@@ -185,7 +185,7 @@ p.testo{
 }
 
 .row{
-    /* height: 100%; non serve il box ha la sua altezza e successivamente il contenuto del box */
+    /* height: 100%; non serve il box ha la sua altezza e di conseguenza il contenuto del box */
     width: 100%;
     margin: 40px 0;
 }
@@ -224,8 +224,8 @@ p.testo{
     
 }
 
-.business .fatturazione a:visited{
-    border: 5px solid blue; 
+.business .fatturazione a:hover,.business .fatturazione:hover a{
+    border: 5px solid #0061ff; 
 }
 
 .business .titolo h2 {
