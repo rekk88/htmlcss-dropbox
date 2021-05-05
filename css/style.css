@@ -100,15 +100,18 @@ header nav li a:hover:not(.btn){
     float: right;
 }
 .dropdown-menu{
-    top: 100px;
-    height: 200px;
-    width: 100px;
+    top: 84px;
+    min-height: 200px;
+    /* width: 100px; */
+    width: 13vw;
     z-index: 100;
     position: fixed;
     display: none;
 
 }
-
+#vendite{
+    /* position: absolute; */
+}
 #supporto .dropdown-menu{ /*per differenziare i menu aggiungo  l'id del padre di .dropdown-menu  */
     background-color: lightblue;
     
@@ -116,8 +119,12 @@ header nav li a:hover:not(.btn){
 #dropbox .dropdown-menu{
     background-color: lightgreen;
 }
-
-nav #supporto:hover .dropdown-menu,nav #dropbox:hover .dropdown-menu {
+#vendite .dropdown-menu{
+    background-color: lightseagreen;
+    /* position: relative;
+    top: 0px; */
+}
+nav #supporto:hover .dropdown-menu,nav #dropbox:hover .dropdown-menu,nav #vendite:hover .dropdown-menu  {
     display: block;
 }
 
