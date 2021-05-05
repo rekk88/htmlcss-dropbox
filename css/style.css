@@ -100,6 +100,22 @@ header nav li a:hover:not(.btn){
     float: right;
 }
 
+.dropdown-menu{
+    display: none;
+    background-color: lightblue;
+    position: fixed;
+    top: 100px;
+    height: 200px;
+    width: 100px;
+    z-index: 100;
+}
+
+nav #supporto:hover .dropdown-menu{
+    display: block;
+}
+
+
+
 
 /* jumbo */
 .jumbotron{
